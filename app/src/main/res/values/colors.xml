@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    //Material color
+    <color name="material_background_blue">#e9f0fd</color>
+    <color name="material_background_blue_2">#cbddfd</color>
+    <color name="material_selected_tab">#e0e9fa</color>
+    <color name="material_dim_text">#606368</color>
+    <color name="material_white">#f8fafe</color>
+    <color name="material_title">#5285ec</color>
+    <color name="material_background_alarm">#6390ec</color>
+    <color name="material_background_orange">#f6c544</color>
+    <color name="material_text">#101010</color>
+    <color name="material_background">#fafafa</color>
+    <color name="text_alarm_note">#3d8727</color>
+    <color name="text_pie_chart">#4a7c87</color>
+    <color name="color_line">#f40404</color>
+    <color name="tabcolor">#f4f1c3</color>
+    <color name="tabselect">#606368</color>
+    <color name="background_alarm">#f4eea8</color>
+</resources>

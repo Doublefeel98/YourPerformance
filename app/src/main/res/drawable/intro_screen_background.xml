@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/material_background_blue_2">
+
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/ic_yourperformance"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

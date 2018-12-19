@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:background="@color/material_background">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tabLayout"
+        android:id="@+id/viewPager"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/tabcolor"
+        app:tabGravity="fill"
+        app:tabIndicator="@color/material_selected_tab"
+        app:tabIndicatorColor="@color/material_title"
+        app:tabIndicatorHeight="@dimen/_3sdp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/tabselect"
+        app:tabTextColor="@color/material_dim_text">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_report"
+            android:text="@string/report" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabSettime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_settime"
+            android:text="@string/schedule" />
+
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_setting"
+            android:text="@string/setting" />
+    </android.support.design.widget.TabLayout>
+
+</RelativeLayout>
