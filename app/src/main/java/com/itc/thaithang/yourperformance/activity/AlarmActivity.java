@@ -109,8 +109,8 @@ public class AlarmActivity extends AppCompatActivity implements View.OnClickList
             public void run() {
                 countTime ++;
                 long hours = countTime/3600;
-                long minutes = (countTime%3600)/60;
-                long seconds = countTime%216000;
+                long minutes = (countTime - hours*3600)/60;
+                long seconds = countTime - hours*3600 - minutes*60;
 
                 tvCountTime.setText(String.format("%02d:%02d:%02d",hours,minutes,seconds));
                 timeHandler.postDelayed(this,1000);
